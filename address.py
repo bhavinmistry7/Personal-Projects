@@ -1,0 +1,11 @@
+user_firstName = str(input("What is your first name?"))
+user_lastName = str(input("What is your last name?"))
+user_streetAddress = str(input("What is your street address?"))
+user_city = str(input("What is your city?"))
+user_state = str(input("What is your state?"))
+user_zipCode = str(input("What is your zip code?"))
+print("Your mailing address should be structured as:")
+print(user_firstName + " " + user_lastName)
+print(user_streetAddress)
+print(user_city + ", " + user_state + " " + user_zipCode)
+
